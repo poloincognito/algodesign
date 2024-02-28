@@ -1,11 +1,13 @@
 # Design and analysis of algorithms
 
 This project re-implements algorithms, and helps practicing :
-- paradigms (greed, dynamic programming, divide and conquer)
+- paradigms (greedy, dynamic programming, divide and conquer)
 - implementation challenges (data structure, complexity)  
 
 Other topics not mentionned:
 - approximation algorithms, randomized algorithms, heuristic, local search, evolutionnary algorithms
+
+*Remark: TBI stands for "to be investigated"*
 
 ## Minimum spanning tree
 
@@ -13,8 +15,10 @@ Other topics not mentionned:
 | ------------------- | ------------------------ | ------------- |
 | **Paradigm**        | Greedy                   | Greedy        |
 | **Data structure**  | Queues with min heap     | Union find    |
-| **Complexity**      | $O(m \log m)$            | $O(m \log m)$ |
+| **Complexity**      | $O(m + n \log n)$        | $O(m \log m)$ |
 | **Examples of use** | Optimal covering network |
+
+*Remark: those algorithms do not work for directed graphs, see Edmonds' algorithm in that case.*
 
 ## Shortest path
 
